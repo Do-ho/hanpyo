@@ -1,5 +1,6 @@
 export const test_data = [
     { code: "111111", lecture_name: "디자인커뮤니케이션", class: "01", professor: "윤정식", grade: "03", personnel: "25", department: "디자인건축공학부", time: [{start: 3660, end: 3720}, {start: 540, end: 600}]},
+    { code: "111112", lecture_name: "디자인커뮤니케이션", class: "01", professor: "윤정식", grade: "03", personnel: "25", department: "디자인건축공학부", time: [{start: 540, end: 600}]},
     { code: "222222", lecture_name: "디자인커뮤니케이션", class: "01", professor: "윤정식", grade: "03", personnel: "25", department: "디자인건축공학부", time: [{start: 3660, end: 3690}]},
     { code: "333333", lecture_name: "디자인커뮤니케이션", class: "01", professor: "윤정식", grade: "03", personnel: "25", department: "디자인건축공학부", time: [{start: 3660, end: 3780}]},
     { code: "444444", lecture_name: "디자인커뮤니케이션", class: "01", professor: "윤정식", grade: "03", personnel: "25", department: "디자인건축공학부", time: [{start: 3660, end: 3780}]},

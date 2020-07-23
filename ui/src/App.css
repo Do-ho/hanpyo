@@ -97,6 +97,7 @@ h5 {
   border-radius: 0.7rem;
   box-shadow: 0.5px 0.5px 0.5px 0 rgba(0, 0, 0, 0.16);
   background-color: #ffb84d;
+  border-color: #ffb84d;
   outline: none;
 }
 
@@ -140,7 +141,7 @@ h5 {
   box-shadow: 0 0.5px 1.5px 0 rgba(0, 0, 0, 0.16);
   padding: 1rem;
   width: 30rem;
-  height: 42rem;
+  /* height: 44rem; */
   margin: auto;
   margin-top: 1rem;
 }
@@ -194,6 +195,27 @@ h5 {
   display: none;
 }
 
+.timetable_infos {
+  position: absolute;
+  top: 2.1rem;
+  left: 7.6rem;
+  z-index: 1;
+  padding-left: 1rem;
+  font-size: 1rem;
+  width: 3.5rem;
+  height: 2.0rem;
+  background-color: blue;
+}
+
+.timetable_td {
+  padding: 0;
+  height: 1.9rem;
+  width: 4rem;
+  text-align: left;
+  height: 0.5rem;
+  font-size: 0.5rem;
+}
+
 /* Button CSS */
 
 .button_container {
@@ -213,6 +235,7 @@ h5 {
   height: 2.5rem;
   background-color: #ffb84d;
   color: white;
+  border-color: #ffb84d;
   border-radius: 1rem;
   outline: none;
 }
@@ -224,6 +247,7 @@ h5 {
   background-color: #f3f3f3;
   color: black;
   border-radius: 1rem;
+  border-color: #f3f3f3;
   outline: none;
 }
 
@@ -369,6 +393,7 @@ h5 {
   height: 2.5rem;
   border-radius: 1rem;
   background-color: #ffb84d;
+  border-color: #ffb84d;
   color: white;
   box-shadow: 0 0.5px 1.5px 0 rgba(0, 0, 0, 0.16);
 }

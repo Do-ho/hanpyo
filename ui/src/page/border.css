@@ -1,59 +1,59 @@
 .border_0 {
-    height: 1.9rem;
     border-left: 0.1px solid #cccccc;
     border-top: 0.1px solid #cccccc;
+    position: relative;
 }
 
 .border_1 {
-    height: 1.9rem;
     border: 0.1px solid red;
+    position: relative;
 }
 
 .border_2 {
-    height: 1.9rem;
     border-bottom: 0.1px solid #cccccc;
     border-top: 0.1px solid red;
     border-left: 0.1px solid red;
     border-right: 0.1px solid red;
+    position: relative;
 }
 
 .border_3 {
-    height: 1.9rem;
     border-bottom: 0.1px solid #cccccc;
     border-left: 0.1px solid red;
     border-right: 0.1px solid red;
+    position: relative;
 }
 
 .border_4 {
-    height: 1.9rem;
     border-bottom: 0.1px solid red;
     border-left: 0.1px solid red;
     border-right: 0.1px solid red;
+    position: relative;
 }
 
 .border_5 {
-    height: 1.9rem;
     border: 0.1px double red;
+    position: relative;
 }
 
 .border_6 {
-    height: 1.9rem;
     border-bottom: 0.1px solid #cccccc;
     border-top: 0.1px double red;
     border-left: 0.1px double red;
     border-right: 0.1px double red;
+    position: relative;
 }
 
 .border_7 {
-    height: 1.9rem;
     border-bottom: 0.1px solid #cccccc;
     border-left: 0.1px double red;
     border-right: 0.1px double red;
+    position: relative;
 }
 
 .border_8 {
-    height: 1.9rem;
     border-bottom: 0.1px double red;
     border-left: 0.1px double red;
     border-right: 0.1px double red;
+    position: relative;
 }
