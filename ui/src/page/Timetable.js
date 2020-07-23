@@ -36,69 +36,8 @@ class timetable extends Component {
       ],
       color: 0,
     }
-      text: [
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-          ["","","","",""],
-      ]
-    }
   }
-  start_rows = (obj, i) => { return ((obj.time[i].start%1440)-540)/30; }
-  start_cols = (obj, i) => { return Math.floor(obj.time[i].start/1440) + 2; }
-  end_rows = (obj, i) => { return ((obj.time[i].end%1440)-540)/30; }
-  end_cols = (obj, i) => { return Math.floor(obj.time[i].end/1440) + 2; }
-
-  // border style function
-  checkBorder = (vaule) => { return "border_" + vaule; }
-
-  displayClear = () => {
-    var data = this.state.days;
-    for(var i=0; i<18; i++) {
-      for(var j=2; j<7; j++) {
-        data[i][j] = 0;
-      }
-    }
-    this.setState({days: data});
-  }
-
-  displayBoder = (object) => {
-    this.displayClear();
-    for(var num=0; num<object.time.length; num++) {
-      var distance = this.end_rows(object, num) - this.start_rows(object, num);
-      var data = this.state.days;
-      if(distance
-         1) {
-        data[this.start_rows(object, num)][this.start_cols(object, num)] = 5;
-        this.setState({days: data})
-      }
-      else {
-        data[this.start_rows(object, num)][this.start_cols(object, num)] = 6;
-        for(var i=1; i<distance-1; i++) {
-          data[this.start_rows(object, num)+i][this.start_cols(object, num)] = 7;
-        }
-        data[this.end_rows(object, num)-1][this.start_cols(object, num)] = 8;
-      }
-    }
-  }
-
-  add_basket = (object) => {
-    this.displayClear();
-  }
+  
   start_rows = (obj, i) => { return ((obj.time[i].start%1440)-540)/30; }
   start_cols = (obj, i) => { return Math.floor(obj.time[i].start/1440) + 2; }
   end_rows = (obj, i) => { return ((obj.time[i].end%1440)-540)/30; }
